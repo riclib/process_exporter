@@ -1,0 +1,7 @@
+# managed_identity_url: http://localhost:3002/metadata/identity/oauth2/token
+# azure_url: http://localhost:3002
+
+targets:
+  prod:
+    endpoint: https://api.coindesk.com/v1/bpi/currentprice.json
+    token: no_token
